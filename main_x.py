@@ -6,7 +6,7 @@ import requests
 from requests.exceptions import ConnectionError, RequestException
 from json.decoder import JSONDecodeError
 
-SECONDS = 15
+SECONDS = 60
 
 MAIN_FONT = ("Arial", 12, "bold")
 TIMER_FONT = ("Arial", 20, "bold")
